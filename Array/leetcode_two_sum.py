@@ -6,8 +6,8 @@ class Solution:
                     continue
                 else:
                     if nums[i]+nums[j]==target:
-                        print(i,j)
+                        print([i,j])
             
 
 L = Solution()
-L.twoSum([2,5,5,11],10)
+L.twoSum([2,5,11,5],10)

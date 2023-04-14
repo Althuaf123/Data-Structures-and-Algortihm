@@ -22,4 +22,4 @@ def get_natural_numbers(n):
         natural_numbers = get_natural_numbers(n-1)
         natural_numbers.append(n)
         return natural_numbers
-print(get_natural_numbers(5))
+print(get_natural_numbers(10))

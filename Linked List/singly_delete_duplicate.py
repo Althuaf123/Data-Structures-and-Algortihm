@@ -7,7 +7,7 @@ class SinglyLinkedList:
     def __init__(self):
         self.head = None
 
-    def delete_diplicate(self):
+    def delete_duplicate(self):
         if self.head is None:
             return
         
@@ -47,5 +47,5 @@ n2.next = n3
 n4 = Node(14)
 n3.next = n4
 L.display()
-L.delete_diplicate()
+L.delete_duplicate()
 L.display()

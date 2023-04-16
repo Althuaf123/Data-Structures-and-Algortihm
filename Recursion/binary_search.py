@@ -18,4 +18,4 @@ arr = [1,2,3,4,5,6]
 low = 0
 target = 4
 result = binary_search(arr,low,(len(arr)-1),target)
-print(result)
+print('Index of the target is :',result)

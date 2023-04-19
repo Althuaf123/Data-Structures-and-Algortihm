@@ -13,8 +13,7 @@ def pop():
     else:
         print(stack[0],'is deleted from stack')
         del stack[0]
-    print
-    ()
+    print()
 
 def display():
     if len(stack) == 0:

@@ -23,5 +23,6 @@ class Hash:
     
 hash = Hash(4)
 hash.insert("hello",990)
-hash.search("hello")
+hash.insert('lloh',880)
+hash.search("lloh")
 print(hash.display())

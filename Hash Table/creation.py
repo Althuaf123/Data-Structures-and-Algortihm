@@ -14,6 +14,7 @@ class Hash:
     def search(self,key):
         h = self._hashing(key)
         print(self.table[h][1])
+    
     def remove(self,key):
         h = self._hashing(key)
         self.table[h]=None

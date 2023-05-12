@@ -74,7 +74,6 @@ class BinarySearchTree:
     
 
 
-# Usage example
 bst = BinarySearchTree()
 bst.insert(5)
 bst.insert(3)
@@ -82,15 +81,9 @@ bst.insert(7)
 bst.insert(1)
 bst.insert(9)
 
-print("Original Binary Search Tree:")
-print("Search:")
-print(bst.search(7))  # Output: <__main__.Node object at 0x...>
+print(bst.search(7))
 
-print("\nDeletion:")
 bst.delete(3)
 
-print("After Deletion:")
-
-print("Search:")
-print(bst.search(3))  # Output: None
-print(bst.search(7))  # Output: None
+print(bst.search(3))
+print(bst.search(7))

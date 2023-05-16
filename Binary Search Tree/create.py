@@ -32,7 +32,10 @@ class BinarySearchTree:
 
     def _search_recursive(self, node, value):
         if node is None or node.value == value:
-            return node
+            if node is None:
+                print('Value not found')
+            else:
+                return node.value
         elif value < node.value:
             return self._search_recursive(node.left, value)
         else:
